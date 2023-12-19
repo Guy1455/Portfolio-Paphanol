@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color:lightgray;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(45, 42, 42);
 }
 
 /* TRANSITION */
@@ -46,20 +47,20 @@ nav {
 }
 
 .img-round {
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 a {
-  color: black;
+  color:cornflowerblue;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: snow;
 }
 
 a:hover {
-  color: grey;
+  color: crimson;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color:rgb(203, 33, 33);
 }
 
 .logo {
@@ -93,7 +94,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: rgb(208, 85, 85);
   transition: all 0.3 ease-in-out;
 }
 
@@ -113,7 +114,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -162,6 +163,7 @@ section {
 
 .section-container {
   display: flex;
+  flex-direction: column;
 }
 
 /* PROFILE SECTION */
@@ -178,6 +180,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+ 
 }
 
 .section__text {
@@ -273,8 +276,8 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about-details-container {
@@ -364,7 +367,7 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(247, 243, 243);
   background: rgb(250, 250, 250);
 }
 
@@ -376,7 +379,7 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: indianred;
 }
 
 .project-btn {
@@ -384,6 +387,12 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.section__pic-container_2 {
+  display: flex;
+  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+}
 /* CONTACT */
 
 #contact {
@@ -397,8 +406,8 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(151, 114, 114) 0.1rem solid;
+  border-color: rgb(247, 242, 242);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
@@ -433,4 +442,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.ass {
+  background-color:ghostwhite;
 }
